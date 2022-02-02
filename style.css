@@ -43,6 +43,8 @@ body {
     max-height: 100%;
     width: 50%;
     position: relative;
+    background-color:hsl(277deg 64% 61% / 31%);
+    mix-blend-mode: overlay;
 }
 .card-image{
     width: 56%;
