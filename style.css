@@ -12,7 +12,10 @@
     --description-color:hsla(0, 0%, 100%, 0.75);
     --light-white:hsla(0, 0%, 100%, 0.6);
     --intra:'Inter', sans-serif;
+    --white: hsl(0, 0%, 100%);
+
     --lexa:'Lexend Deca', sans-serif;
+
 }
 body {
     font-family: var(--lexa);
@@ -36,7 +39,6 @@ body {
     border-radius: 0.5rem;
 }
 .card1{
-    border: 5px dotted blueviolet;
     max-width: 100%;
     max-height: 100%;
     width: 50%;
@@ -44,10 +46,9 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    padding: 4.5rem;
+    padding: 2.5rem;
 }
 .card2{
-    border: 5px dashed navajowhite;
     max-width: 100%;
     max-height: 100%;
     width: 50%;
@@ -55,11 +56,23 @@ body {
     background-color: var(--soft-accent-color);
     mix-blend-mode: overlay;
 }
+.card-content-container{
+    padding: 2rem;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: var(--intra);
+    line-height: 2.8rem;
+    color: var(--white);
+}
 .soft-accent-color{
     color:var(--soft-accent-color);
 }
 .description {
-    margin-top: 3rem;
+    margin-top: 2rem;
+    width: 23rem;
+    line-height: 23px;
     color: var(--description-color);
 }
 .number-container {
