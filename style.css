@@ -103,6 +103,7 @@ h1{
     height: auto;
     min-height: 100%;
     mix-blend-mode: overlay;
+    border-radius: 10px;
 }
 .card-content{
     border: 5px dotted brown;
