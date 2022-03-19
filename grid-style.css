@@ -87,7 +87,7 @@ Grid Layout
 }
 .hero__img{
     
-    background-image: url(../images/image-header-mobile.jpg);
+    background-image: url(images/image-header-mobile.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -142,7 +142,7 @@ Grid Layout
     }
 
 .hero__img{
-    background-image: url(../images/image-header-mobile.jpg);
+    background-image: url(images/image-header-desktop.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
